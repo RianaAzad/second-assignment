@@ -184,18 +184,18 @@ padding: 20px;
    .banner-content{
        text-align: center;
    }
-   .ellipses{
-       width: 60vw;
-      height: 10vh;
-       overflow: hidden;
-       padding: 0 15%;
-   }
-   .top p{
-       white-space: nowrap;
-       overflow: hidden;
-       text-overflow: ellipsis;
-       
-   }
+   .ellip{
+    overflow: hidden;
+    margin-right: 0;
+    padding-right: 0;
+}
+.mini{
+    width: 60vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 15%;
+}
    .top img{
        height: 100%;
        width: 90%;
