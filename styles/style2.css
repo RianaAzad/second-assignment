@@ -161,6 +161,10 @@ padding: 20px;
     padding: 20px;
  font-size: 2rem;
 }
+.social-media a{
+    text-decoration: none;
+    color: white;
+}
 /* responsive styles */
 /* For Mobile View  */
 @media only screen and (max-width: 576px) {

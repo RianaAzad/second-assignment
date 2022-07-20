@@ -179,6 +179,10 @@ padding: 20px;
 .tablet-only{
     display: none; 
 }
+.social-media a{
+    text-decoration: none;
+    color: white;
+}
 /* responsive styles */
 /* For Mobile View  */
 @media only screen and (max-width: 576px) {
