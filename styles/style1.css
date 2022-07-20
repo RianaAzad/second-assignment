@@ -28,6 +28,7 @@ p{
   justify-content: center;
   align-items: center;
 }
+
 .banner-content{
     padding-bottom: 4%;
 }
@@ -201,24 +202,25 @@ padding: 20px;
     .banner-content{
         text-align: center;
     }
-    .ellipses{
-        width: 30px;
-      
+    .ellip{
         overflow: hidden;
-        padding: 0 15%;
+        margin-right: 0;
+        padding-right: 0;
     }
-    .top p{
+    .mini{
+        width: 60vw;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        padding-left: 15%;
     }
     .top img{
         height: 100%;
         width: 90%;
         object-fit:contain;
         padding-left: 5%;
-       
     }
+   
     .middle-container{
         margin: 3vh 8vw; 
         display: flex;
